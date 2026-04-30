@@ -95,49 +95,70 @@ Home
 └── Footer
 ```
 
-Suggested Sections
-Hero
+## Suggested Sections
+
+### Hero
 
 The first screen should immediately show who I am.
 
+```txt
 Hi, I'm Seong Chihyun.
 I build web projects, study software development, and enjoy turning ideas into working products.
+```
 
 Possible buttons:
 
-View Projects
-GitHub
-Contact
-About
+- View Projects
+- GitHub
+- Contact
+
+---
+
+### About
 
 Example content:
 
+```txt
 I am interested in software development, web design, IoT, and game programming.
 I enjoy learning by building real projects and improving them step by step.
-Skills
-Languages
-HTML
-CSS
-JavaScript
-Python
-Java
-C / C++
-Tools
-Git
-GitHub
-VS Code
-Raspberry Pi
-Arduino
-Interests
-Web Development
-IoT
-Game Programming
-Backend Development
-UI Design
-Project Card Example
+```
+
+---
+
+### Skills
+
+#### Languages
+
+- HTML
+- CSS
+- JavaScript
+- Python
+- Java
+- C / C++
+
+#### Tools
+
+- Git
+- GitHub
+- VS Code
+- Raspberry Pi
+- Arduino
+
+#### Interests
+
+- Web Development
+- IoT
+- Game Programming
+- Backend Development
+- UI Design
+
+---
+
+## Project Card Example
 
 Each project card should include:
 
+```txt
 Project Name
 Short description of what the project does.
 
@@ -147,9 +168,11 @@ HTML / CSS / JavaScript
 Links:
 GitHub Repository
 Live Demo
+```
 
 Recommended layout:
 
+```txt
 ┌──────────────────────────────┐
 │ Project Title                │
 │ Short project description    │
@@ -158,8 +181,16 @@ Recommended layout:
 │                              │
 │ GitHub   Live Demo           │
 └──────────────────────────────┘
-<details> <summary><strong>Design System</strong></summary>
-Colors
+```
+
+---
+
+<details>
+<summary><strong>Design System</strong></summary>
+
+### Colors
+
+```css
 --color-background: #ffffff;
 --color-surface: #f8f9fb;
 --color-text: #111827;
@@ -167,39 +198,77 @@ Colors
 --color-border: #e5e7eb;
 --color-primary: #2563eb;
 --color-primary-dark: #1d4ed8;
-Typography
+```
+
+### Typography
+
+```css
 font-family: Inter, Pretendard, system-ui, sans-serif;
-Spacing
+```
+
+### Spacing
+
+```css
 --space-xs: 0.5rem;
 --space-sm: 1rem;
 --space-md: 1.5rem;
 --space-lg: 2rem;
 --space-xl: 4rem;
-Border Radius
+```
+
+### Border Radius
+
+```css
 --radius-sm: 8px;
 --radius-md: 12px;
 --radius-lg: 20px;
+```
+
 </details>
-<details> <summary><strong>Layout Guidelines</strong></summary>
-Desktop
-Centered content
-Maximum width around 1100px
-Two-column layout for About / Skills
-Grid layout for project cards
-Mobile
-Single-column layout
-Large readable text
-Buttons stacked vertically if needed
-Navigation should be simple and easy to tap
+
+---
+
+<details>
+<summary><strong>Layout Guidelines</strong></summary>
+
+### Desktop
+
+- Centered content
+- Maximum width around `1100px`
+- Two-column layout for About / Skills
+- Grid layout for project cards
+
+### Mobile
+
+- Single-column layout
+- Large readable text
+- Buttons stacked vertically if needed
+- Navigation should be simple and easy to tap
+
 </details>
-<details> <summary><strong>Recommended Components</strong></summary>
-Navigation Bar
+
+---
+
+<details>
+<summary><strong>Recommended Components</strong></summary>
+
+### Navigation Bar
+
+```txt
 Logo / Name    About    Skills    Projects    Contact
-Hero Section
+```
+
+### Hero Section
+
+```txt
 Name
 Short description
 CTA buttons
-Skill Badge
+```
+
+### Skill Badge
+
+```txt
 HTML
 CSS
 JavaScript
@@ -207,16 +276,27 @@ React
 Python
 Java
 GitHub
-Project Card
+```
+
+### Project Card
+
+```txt
 Title
 Description
 Tech Stack
 Links
-Footer
+```
+
+### Footer
+
+```txt
 © 2026 Seong Chihyun. Built with GitHub Pages.
+```
+
 </details>
 
-```md
+---
+
 ## Development Checklist
 
 - [ ] Add clear hero section
@@ -232,15 +312,23 @@ Footer
 - [ ] Check mobile view
 - [ ] Deploy with GitHub Pages
 
-Future Improvements
-Add dark mode
-Add project screenshots
-Add animation effects
-Add blog or study notes section
-Add Korean / English language toggle
-Add resume download button
-Add GitHub contribution stats
-Folder Structure Example
+---
+
+## Future Improvements
+
+- Add dark mode
+- Add project screenshots
+- Add animation effects
+- Add blog or study notes section
+- Add Korean / English language toggle
+- Add resume download button
+- Add GitHub contribution stats
+
+---
+
+## Folder Structure Example
+
+```txt
 chihyun717.github.io/
 ├── index.html
 ├── README.md
@@ -251,16 +339,29 @@ chihyun717.github.io/
 │   └── style.css
 └── js/
     └── main.js
-Preview
+```
+
+---
+
+## Preview
 
 Add a screenshot of the website here later.
 
+```md
 ![Portfolio Preview](./assets/images/preview.png)
-Contact
-Website: https://chihyun717.github.io/
-GitHub: https://github.com/chihyun717
+```
+
+---
+
+## Contact
+
+- Website: https://chihyun717.github.io/
+- GitHub: https://github.com/chihyun717
+
+---
+
 <div align="center">
 
-Made with care by Seong Chihyun
+Made with care by **Seong Chihyun**
 
-</div> ```
+</div>
