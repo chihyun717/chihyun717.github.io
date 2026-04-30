@@ -93,6 +93,8 @@ Home
 │   └── Other links
 │
 └── Footer
+```
+
 Suggested Sections
 Hero
 
@@ -213,19 +215,23 @@ Links
 Footer
 © 2026 Seong Chihyun. Built with GitHub Pages.
 </details>
-Development Checklist
- Add clear hero section
- Add About section
- Add Skills section
- Add Projects section
- Add Contact section
- Make layout responsive
- Add hover effects
- Improve typography
- Add project screenshots
- Add favicon
- Check mobile view
- Deploy with GitHub Pages
+
+```md
+## Development Checklist
+
+- [ ] Add clear hero section
+- [ ] Add About section
+- [ ] Add Skills section
+- [ ] Add Projects section
+- [ ] Add Contact section
+- [ ] Make layout responsive
+- [ ] Add hover effects
+- [ ] Improve typography
+- [ ] Add project screenshots
+- [ ] Add favicon
+- [ ] Check mobile view
+- [ ] Deploy with GitHub Pages
+
 Future Improvements
 Add dark mode
 Add project screenshots
